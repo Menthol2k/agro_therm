@@ -18,6 +18,7 @@ class UserSeeder extends Seeder
             ['name' => 'Ionel', 'email' => 'ionel@twm.ro', 'password' => 'twm2022','is_admin'=>true,'role_id'=>1],
             ['name' => 'Adrian', 'email' => 'adrian@twm.ro', 'password' => 'basa','is_admin'=>true,'role_id'=>1],
             ['name' => 'Diana', 'email' => 'diana@twm.ro', 'password' => 'twm2022','is_admin'=>true,'role_id'=>1],
+            ['name' => 'Octavian', 'email' => 'octavian@twm.ro', 'password' => 'twm2022','is_admin'=>true,'role_id'=>1],
         ])->each(function ($factory) {
             $user = User::factory()->make([
                 'name' => $factory['name'],
